@@ -1,4 +1,7 @@
 package pl.adrian.booklibrary.book;
 
-public class BookStatus {
+public enum BookStatus {
+    TO_READ,
+    READING,
+    READ;
 }
