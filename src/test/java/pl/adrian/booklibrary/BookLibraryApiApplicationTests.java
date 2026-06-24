@@ -1,4 +1,4 @@
-package org.lbooklibraryapi.booklibraryapi;
+package pl.adrian.booklibrary;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
