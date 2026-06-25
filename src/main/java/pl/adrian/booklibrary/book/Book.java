@@ -1,8 +1,6 @@
 package pl.adrian.booklibrary.book;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
 
@@ -13,6 +11,7 @@ public class Book {
     private Long id;
     private String title;
     private String author;
+    @Enumerated(EnumType.STRING)
     private BookStatus status;
     private LocalDateTime createdAt;
 
